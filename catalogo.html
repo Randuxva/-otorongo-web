@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catálogo | OTORONGO</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background: url('background.png') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+
+    .catalog-wrapper {
+      max-width: 90%;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 12px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+
+    iframe {
+      width: 100%;
+      height: 85vh;
+      border: none;
+      border-radius: 8px;
+    }
+
+    .btn-volver {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #fff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .btn-volver:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="catalog-wrapper">
+    <h1>Catálogo de Productos</h1>
+
+    <!-- Sustituí "catalogo-otorongo.pdf" por el nombre real de tu PDF -->
+    <iframe src="catalogo-otorongo.pdf"></iframe>
+
+    <a href="index.html" class="btn-volver">← Volver al inicio</a>
+  </div>
+</body>
+</html>
