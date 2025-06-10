@@ -2,22 +2,126 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Quiénes Somos - OTORONGO</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiénes Somos | OTORONGO</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 30PX;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('background.png') no-repeat center center fixed;
+      background-size: cover;
+   width: 100%;
+  height: 100%;
+      background-size: cover;
+
+    }
+
+.background {
+  background: url('background.png') no-repeat center center fixed;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+
+    .overlay {
+      background-color:  rgba(f, f, f, 0.3); /* 50% opacidad */
+     
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      background-color: #fff; /* contenedor blanco */
+      color: #000;            /* texto negro */
+      max-width: 800px;
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 4px 12px rgba(f, f, f, 0.3);
+      text-align: justify;
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #000;
+    }
+
+    .info {
+      margin-top: 40px;
+      text-align: center;
+      line-height: 1.8;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
+
+
   <div class="overlay">
+
     <div class="container">
-      <a href="index.html" class="back-button">← Volver al Inicio</a>
+ 
       <h1>Quiénes Somos</h1>
-      <p><strong>Misión:</strong> Transmitir nuestra calidad, variedad y excelente servicio, brindando atención efectiva a cualquier inconveniente con su compra.</p>
-      <p><strong>Visión:</strong> Consolidar la identidad de Otorongo en el cliente, gestionar más ventas y llegar a los clientes, con una facturación mensual de 30.000.000 pesos.</p>
-      <p><strong>Valores:</strong> Calidad, Confianza, Compromiso, Autenticidad, Adaptabilidad</p>
-      <p><strong>Dirección:</strong> Helguera 289, Flores, CABA</p>
-      <p><strong>Horario:</strong> Lun a vie 8 a 16hs - Sáb 8 a 14hs</p>
-      <p><strong>WhatsApp:</strong> +54 11 6660 3538</p>
+
+      <p>
+        En <span class="highlight">OTORONGO</span> nos dedicamos a ofrecer productos de calidad con un firme compromiso hacia nuestros clientes. Nuestra misión es transmitir la excelencia en cada prenda, brindando un servicio atento, rápido y eficiente, incluso ante cualquier inconveniente posterior a la compra.
+      </p>
+
+      <h2>Misión</h2>
+      <p>
+        Transmitir nuestra calidad, variedad y excelente servicio, brindando atención efectiva a cualquier inconveniente con su compra.
+      </p>
+
+      <h2>Visión</h2>
+      <p>
+        Consolidar la identidad de OTORONGO en nuestros clientes, posicionándonos como una marca confiable, accesible y con visión de crecimiento constante en el mercado argentino.
+      </p>
+
+      <h2>Valores</h2>
+      <p>
+        <span class="highlight">Calidad</span>, <span class="highlight">Confianza</span>, <span class="highlight">Compromiso</span>, <span class="highlight">Autenticidad</span> y <span class="highlight">Adaptabilidad</span> son los pilares que nos definen como empresa y guían cada una de nuestras acciones.
+      </p>
+
+      <div class="info">
+        <p><span class="highlight">Dirección:</span> Helguera 289, Flores, CABA</p>
+        <p><span class="highlight">Horario:</span> Lunes a Viernes de 8:00 a 16:00 hs – Sábados de 8:00 a 14:00 hs</p>
+        <p><span class="highlight">WhatsApp:</span> <a href="https://wa.me/541166603538">+54 11 6660 3538</a></p>
+      </div>
+
+      <div class="footer">
+        © OTORONGO - Todos los derechos reservados
+      </div>
     </div>
-  </div>
+ 
+ </div>
 </body>
 </html>
